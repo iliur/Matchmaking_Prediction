@@ -101,7 +101,7 @@ Speed → sub-ms inference; great for live scoring.
 
 Evaluation: time-based split (train first ~80% of matches, test on the next ~20%); report AUC / LogLoss / Brier.
 
-Upgrade path: optional HistGradientBoosting + Isotonic (already in code) when you have more data or add richer features (champ/role embeddings, draft/synergy, queue/patch-specific models).
+Upgrade path: optional HistGradientBoosting + Isotonic (already in code) when more data or richer features (champ/role embeddings, draft/synergy, queue/patch-specific models).
 
 ---
 
