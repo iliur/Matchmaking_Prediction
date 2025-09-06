@@ -1,5 +1,7 @@
 # Riot Matchmaking Prediction — P(win) Demo
 
+---
+
 ## Brief
 Small MVP to learn matchmaking algos and how machine learning can be applied in this field. This project can be expanded to anything to do with matchmaking even beyond League (I.e. Other Riot Games, Chess, Soccer (or any sports betting), etc)
 
