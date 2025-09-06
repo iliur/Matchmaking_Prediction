@@ -41,7 +41,7 @@ Build a dataset from one or more seed players (Riot IDs are GameName#Tag).
 This pulls their recent SoloQ games, constructs features with time cutoffs, time-splits ~80/20, trains, prints AUC / LogLoss / Brier, and writes model.pkl.
 
 python train_baseline.py \
-  --riot-ids "cant type#1998,RLAero#NA1" \
+  --riot-ids "<enter here>" \
   --per-player 80 \
   --out model.pkl
 
