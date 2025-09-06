@@ -6,7 +6,7 @@
 
 ## Brief
 Small MVP to explore matchmaking algorithms and how machine learning can be applied in this field. This project can be expanded to anything to do with matchmaking even beyond League (I.e. Other Riot Games, Chess, Soccer (or any sports betting), etc).
-League was only chosen due to Riot's easy-to-use API and largely available data.
+Riot Games was chosen for its easy-to-use API (+ open source wrappers) and largely available data.
 
 ---
 
