@@ -90,7 +90,6 @@ Aggregate to team means and compute TeamA − TeamB deltas for the model.
 ## ML model (what & why)
 
 Model: LogisticRegression(max_iter=500) on team-delta features.
-<img width="725" height="615" alt="image" src="https://github.com/user-attachments/assets/8bdc7ae7-7b94-40f0-9db9-21d7fc37effd" />
 
 Why LR?
 
