@@ -12,7 +12,7 @@ League was only chosen due to Riot's easy-to-use API and largely available data.
 
 ## Intro (What it does)
 Small system that predicts a League match’s **probability to win** using only public Riot APIs.  
-It fetches players’ recent games, builds **recent-form, role-aware features**, learns from past matches, and serves **P(Team 100 wins)** via FastAPI.
+It fetches players’ recent games, builds **recent-form, role-aware features**, learns from past matches, and serves **P(Team 100 aka Team A aka Blue Side wins)** via FastAPI.
 - **Pulls data** with `riotwatcher`: Riot-ID → **PUUID**, then **Match-V5** JSON for recent games.  
 - **Caches** raw match JSON locally (`.riot_cache/`) to reduce API calls.  
 - **Features (pre-match only; no leakage):** per player WR, KDA, CS/min, DPM, Kill-Participation, Role-consistency, and a numeric Rank; team **averages** + **TeamA − TeamB deltas**.  
