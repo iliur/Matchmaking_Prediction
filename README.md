@@ -1,5 +1,7 @@
 # Riot Matchmaking Prediction — P(win) Demo
 
+<img width="840" height="375" alt="image" src="https://github.com/user-attachments/assets/97a6617e-6c9e-4950-869f-73310280c328" />
+
 ---
 
 ## Brief
