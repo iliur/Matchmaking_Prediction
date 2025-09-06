@@ -111,5 +111,8 @@ Pull recent games → build recent-form features → train Logistic Regression o
 
 ## Sample Result
 <img width="346" height="593" alt="image" src="https://github.com/user-attachments/assets/c0a5273e-50d9-42cc-b9d6-0c91a668ff4f" />
-<img width="907" height="532" alt="image" src="https://github.com/user-attachments/assets/51bf7835-f9df-40c9-8b99-8c078d695816" />
+<img width="924" height="57" alt="image" src="https://github.com/user-attachments/assets/49f14ab9-14b0-453b-92c5-a2e311d276a8" />
+
+Team A lost with P(Team A Win) = 42%
+
 
