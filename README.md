@@ -102,8 +102,5 @@ Upgrade path: optional HistGradientBoosting + Isotonic (already in code) when yo
 
 ## TL;DR
 
-Pull recent games → build leakage-safe recent-form features → train Logistic Regression on team deltas → serve P(win) over HTTP.
+Pull recent games → build recent-form features → train Logistic Regression on team deltas → return P(win) for a chosen match.
 
-It’s fast, explainable, and production-shaped (caching, rate-limit friendly).
-
-Easy next steps: add champion/draft features or blend a Bayesian skill prior (TrueSkill-style) with recent form.
