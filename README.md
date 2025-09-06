@@ -1,11 +1,13 @@
 # Riot Matchmaking Prediction — P(win) Demo
 
-Small system that predicts a League match’s **probability to win** using only public Riot APIs.  
-It fetches players’ recent games, builds **recent-form, role-aware features**, learns from past matches, and serves **P(Team 100 wins)** via FastAPI.
+## Brief
+Small MVP to learn matchmaking algos and how machine learning can be applied in this field. This project can be expanded to anything to do with matchmaking even beyond League (I.e. Other Riot Games, Chess, Soccer (or any sports betting), etc)
 
 ---
 
-## What it does (brief)
+## Intro (What it does)
+Small system that predicts a League match’s **probability to win** using only public Riot APIs.  
+It fetches players’ recent games, builds **recent-form, role-aware features**, learns from past matches, and serves **P(Team 100 wins)** via FastAPI.
 - **Pulls data** with `riotwatcher`: Riot-ID → **PUUID**, then **Match-V5** JSON for recent games.  
 - **Caches** raw match JSON locally (`.riot_cache/`) to reduce API calls.  
 - **Features (pre-match only; no leakage):** per player WR, KDA, CS/min, DPM, Kill-Participation, Role-consistency, and a numeric Rank; team **averages** + **TeamA − TeamB deltas**.  
