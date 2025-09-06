@@ -116,7 +116,7 @@ Pull recent games → build recent-form features → train Logistic Regression o
 ## Sample Result
 <img width="346" height="593" alt="image" src="https://github.com/user-attachments/assets/c0a5273e-50d9-42cc-b9d6-0c91a668ff4f" />
 <img width="924" height="57" alt="image" src="https://github.com/user-attachments/assets/49f14ab9-14b0-453b-92c5-a2e311d276a8" />
-Sample top 0.1% match. Team A lost with P(Team A Win) = 42%
-
+Sample top 0.1% match.   
+Team A lost with P(Team A Win) = 42%    
 Match Link: https://www.leagueofgraphs.com/match/na/5362753863
 
