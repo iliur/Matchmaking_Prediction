@@ -27,8 +27,9 @@ RIOT_REGION=americas
 MODEL_PATH=model.pkl
 RIOT_CACHE_DIR=.riot_cache
 
+---
 
-Run order (training → serving → demo)
+## Run order (training → serving → demo)
 1) Train a model
 
 Build a dataset from one or more seed players (Riot IDs are GameName#Tag).
@@ -65,7 +66,9 @@ POST /pwin with JSON:
   "teamB": ["name6#TAG","name7#TAG","name8#TAG","name9#TAG","name10#TAG"]
 }
 
-How data is pulled (in 4 steps)
+---
+
+## How data is pulled (in 4 steps)
 
 Riot-ID → PUUID (Account-V1).
 
@@ -75,7 +78,9 @@ Per match, use gameStartTimestamp to select only earlier games for each player (
 
 Aggregate to team means and compute TeamA − TeamB deltas for the model.
 
-ML model (what & why)
+---
+
+## ML model (what & why)
 
 Model: LogisticRegression(max_iter=500) on team-delta features.
 
@@ -93,7 +98,9 @@ Evaluation: time-based split (train first ~80% of matches, test on the next ~20%
 
 Upgrade path: optional HistGradientBoosting + Isotonic (already in code) when you have more data or add richer features (champ/role embeddings, draft/synergy, queue/patch-specific models).
 
-TL;DR
+---
+
+## TL;DR
 
 Pull recent games → build leakage-safe recent-form features → train Logistic Regression on team deltas → serve P(win) over HTTP.
 
