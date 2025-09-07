@@ -91,7 +91,7 @@ Aggregate to team means and compute TeamA − TeamB deltas for the model.
 
 Model: LogisticRegression(max_iter=500) on team-delta features.
 
-Why LR?
+Why LR (Logistic Regression)?
 
 Small/medium data → LR is stable, fast, and hard to overfit.
 
